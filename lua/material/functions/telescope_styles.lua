@@ -6,7 +6,7 @@ if not ok then
 		local styles = { "darker", "lighter", "deep ocean", "oceanic", "palenight" }
 		vim.ui.select(styles, { prompt = "Material" }, function(style)
 			vim.g.material_style = style
-			vim.cmd("colorscheme material")
+			vim.cmd("colorscheme banbury")
 		end)
 	end
 else
