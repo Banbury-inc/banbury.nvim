@@ -20,7 +20,7 @@ M.change_style = function(style)
     set_lualine()
     vim.g.material_style = style
     -- print("Material style: ", style)
-    vim.cmd "colorscheme banbury"
+    vim.cmd "colorscheme material"
 end
 
 ---toggle between styles
@@ -29,7 +29,7 @@ M.toggle_style = function()
         vim.g.material_style_iterator = 0
     end
     local styles = {
-        "darker",
+        "dark",
         "lighter",
         "palenight",
         "oceanic",
