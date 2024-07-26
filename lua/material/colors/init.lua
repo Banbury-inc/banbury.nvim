@@ -205,7 +205,7 @@ colors.git.modified = colors.main.blue
 ---lsp colors
 colors.lsp.warning = colors.main.yellow
 colors.lsp.info    = colors.main.paleblue
-colors.lsp.hint    = colors.main.purple
+colors.lsp.hint    = colors.main.orange
 
 ---contrasted backgrounds
 colors.backgrounds.sidebars            = colors.editor.bg
