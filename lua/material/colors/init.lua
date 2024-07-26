@@ -190,12 +190,12 @@ end
 ---syntax colors
 colors.syntax.variable = colors.editor.fg
 colors.syntax.field    = colors.editor.fg
-colors.syntax.keyword  = colors.main.purple
+colors.syntax.keyword  = colors.main.yellow
 colors.syntax.value    = colors.main.orange
 colors.syntax.operator = colors.main.cyan
 colors.syntax.fn       = colors.main.blue
 colors.syntax.string   = colors.main.green
-colors.syntax.type     = colors.main.purple
+colors.syntax.type     = colors.main.yellow
 
 ---git colors
 colors.git.added    = colors.main.green
